@@ -8,7 +8,7 @@ function HotelCard (props) {
             </div>
             <h2>{props.name}</h2>
             <h3>{props.location}</h3>
-            <button><a href ={props.button} >Book Now</a></button>
+            <button><a href ={props.button}>Book Now</a></button>
         </div>
     )
 }
